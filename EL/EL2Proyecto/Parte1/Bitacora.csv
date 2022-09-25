@@ -1,0 +1,1669 @@
+0,"Model: ""sequential_3""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_12 (Dense)            (None, 120)               960       
+                                                                 
+ dropout_9 (Dropout)         (None, 120)               0         
+                                                                 
+ batch_normalization_9 (Batc  (None, 120)              480       
+ hNormalization)                                                 
+                                                                 
+ dense_13 (Dense)            (None, 24)                2904      
+                                                                 
+ dropout_10 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_10 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_14 (Dense)            (None, 24)                600       
+                                                                 
+ dropout_11 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_11 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_15 (Dense)            (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 5,161
+Trainable params: 4,825
+Non-trainable params: 336
+_________________________________________________________________",0.7532467246055603,0.0
+0,"Model: ""sequential_4""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_16 (Dense)            (None, 8)                 64        
+                                                                 
+ dropout_12 (Dropout)        (None, 8)                 0         
+                                                                 
+ batch_normalization_12 (Bat  (None, 8)                32        
+ chNormalization)                                                
+                                                                 
+ dense_17 (Dense)            (None, 4)                 36        
+                                                                 
+ dropout_13 (Dropout)        (None, 4)                 0         
+                                                                 
+ batch_normalization_13 (Bat  (None, 4)                16        
+ chNormalization)                                                
+                                                                 
+ dense_18 (Dense)            (None, 1)                 5         
+                                                                 
+=================================================================
+Total params: 153
+Trainable params: 129
+Non-trainable params: 24
+_________________________________________________________________",0.6818181872367859,0.0
+0,"Model: ""sequential_8""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_29 (Dense)            (None, 32)                256       
+                                                                 
+ dropout_21 (Dropout)        (None, 32)                0         
+                                                                 
+ batch_normalization_21 (Bat  (None, 32)               128       
+ chNormalization)                                                
+                                                                 
+ dense_30 (Dense)            (None, 16)                528       
+                                                                 
+ dropout_22 (Dropout)        (None, 16)                0         
+                                                                 
+ batch_normalization_22 (Bat  (None, 16)               64        
+ chNormalization)                                                
+                                                                 
+ dense_31 (Dense)            (None, 8)                 136       
+                                                                 
+ dropout_23 (Dropout)        (None, 8)                 0         
+                                                                 
+ batch_normalization_23 (Bat  (None, 8)                32        
+ chNormalization)                                                
+                                                                 
+ dense_32 (Dense)            (None, 1)                 9         
+                                                                 
+=================================================================
+Total params: 1,153
+Trainable params: 1,041
+Non-trainable params: 112
+_________________________________________________________________",0.7272727489471436,0.0
+0,"Model: ""sequential_9""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_33 (Dense)            (None, 64)                512       
+                                                                 
+ dropout_24 (Dropout)        (None, 64)                0         
+                                                                 
+ batch_normalization_24 (Bat  (None, 64)               256       
+ chNormalization)                                                
+                                                                 
+ dense_34 (Dense)            (None, 24)                1560      
+                                                                 
+ dropout_25 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_25 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_35 (Dense)            (None, 24)                600       
+                                                                 
+ dropout_26 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_26 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_36 (Dense)            (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 3,145
+Trainable params: 2,921
+Non-trainable params: 224
+_________________________________________________________________",0.7402597665786743,0.0
+0,"Model: ""sequential_10""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_37 (Dense)            (None, 128)               1024      
+                                                                 
+ dropout_27 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_27 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_38 (Dense)            (None, 24)                3096      
+                                                                 
+ dropout_28 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_28 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_39 (Dense)            (None, 24)                600       
+                                                                 
+ dropout_29 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_29 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_40 (Dense)            (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 5,449
+Trainable params: 5,097
+Non-trainable params: 352
+_________________________________________________________________",0.7337662577629089,0.0
+0,"Model: ""sequential_17""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_55 (Dense)            (None, 124)               868       
+                                                                 
+ dropout_33 (Dropout)        (None, 124)               0         
+                                                                 
+ batch_normalization_33 (Bat  (None, 124)              496       
+ chNormalization)                                                
+                                                                 
+ dense_56 (Dense)            (None, 24)                3000      
+                                                                 
+ dropout_34 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_34 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_57 (Dense)            (None, 24)                600       
+                                                                 
+ dropout_35 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_35 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_58 (Dense)            (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 5,181
+Trainable params: 4,837
+Non-trainable params: 344
+_________________________________________________________________",0.7207792401313782,0.0
+0,"Model: ""sequential_19""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_63 (Dense)            (None, 10)                70        
+                                                                 
+ dropout_36 (Dropout)        (None, 10)                0         
+                                                                 
+ batch_normalization_36 (Bat  (None, 10)               40        
+ chNormalization)                                                
+                                                                 
+ dense_64 (Dense)            (None, 50)                550       
+                                                                 
+ dropout_37 (Dropout)        (None, 50)                0         
+                                                                 
+ batch_normalization_37 (Bat  (None, 50)               200       
+ chNormalization)                                                
+                                                                 
+ dense_65 (Dense)            (None, 10)                510       
+                                                                 
+ dropout_38 (Dropout)        (None, 10)                0         
+                                                                 
+ batch_normalization_38 (Bat  (None, 10)               40        
+ chNormalization)                                                
+                                                                 
+ dense_66 (Dense)            (None, 5)                 55        
+                                                                 
+ dropout_39 (Dropout)        (None, 5)                 0         
+                                                                 
+ batch_normalization_39 (Bat  (None, 5)                20        
+ chNormalization)                                                
+                                                                 
+ dense_67 (Dense)            (None, 1)                 6         
+                                                                 
+=================================================================
+Total params: 1,491
+Trainable params: 1,341
+Non-trainable params: 150
+_________________________________________________________________",0.6623376607894897,0.0
+0,"Model: ""sequential_32""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_117 (Dense)           (None, 128)               1024      
+                                                                 
+ dropout_57 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_57 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_118 (Dense)           (None, 24)                3096      
+                                                                 
+ dropout_58 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_58 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_119 (Dense)           (None, 24)                600       
+                                                                 
+ dropout_59 (Dropout)        (None, 24)                0         
+                                                                 
+ batch_normalization_59 (Bat  (None, 24)               96        
+ chNormalization)                                                
+                                                                 
+ dense_120 (Dense)           (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 5,449
+Trainable params: 5,097
+Non-trainable params: 352
+_________________________________________________________________",0.7413793206214905,0.0
+0,"Model: ""sequential_33""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_121 (Dense)           (None, 128)               1024      
+                                                                 
+ dropout_60 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_60 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_122 (Dense)           (None, 30)                3870      
+                                                                 
+ dropout_61 (Dropout)        (None, 30)                0         
+                                                                 
+ batch_normalization_61 (Bat  (None, 30)               120       
+ chNormalization)                                                
+                                                                 
+ dense_123 (Dense)           (None, 30)                930       
+                                                                 
+ dropout_62 (Dropout)        (None, 30)                0         
+                                                                 
+ batch_normalization_62 (Bat  (None, 30)               120       
+ chNormalization)                                                
+                                                                 
+ dense_124 (Dense)           (None, 1)                 31        
+                                                                 
+=================================================================
+Total params: 6,607
+Trainable params: 6,231
+Non-trainable params: 376
+_________________________________________________________________",0.75,0.0
+0,"Model: ""sequential_34""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_125 (Dense)           (None, 128)               1024      
+                                                                 
+ dropout_63 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_63 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_126 (Dense)           (None, 40)                5160      
+                                                                 
+ dropout_64 (Dropout)        (None, 40)                0         
+                                                                 
+ batch_normalization_64 (Bat  (None, 40)               160       
+ chNormalization)                                                
+                                                                 
+ dense_127 (Dense)           (None, 40)                1640      
+                                                                 
+ dropout_65 (Dropout)        (None, 40)                0         
+                                                                 
+ batch_normalization_65 (Bat  (None, 40)               160       
+ chNormalization)                                                
+                                                                 
+ dense_128 (Dense)           (None, 1)                 41        
+                                                                 
+=================================================================
+Total params: 8,697
+Trainable params: 8,281
+Non-trainable params: 416
+_________________________________________________________________",0.7413793206214905,0.0
+0,"Model: ""sequential_35""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_129 (Dense)           (None, 128)               1024      
+                                                                 
+ dropout_66 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_66 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_130 (Dense)           (None, 35)                4515      
+                                                                 
+ dropout_67 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_67 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_131 (Dense)           (None, 35)                1260      
+                                                                 
+ dropout_68 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_68 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_132 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.75,0.0
+0,"Model: ""sequential_36""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_133 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 128)               0         
+                                                                 
+ dropout_69 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_69 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_134 (Dense)           (None, 35)                4515      
+                                                                 
+ dropout_70 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_70 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_135 (Dense)           (None, 35)                1260      
+                                                                 
+ dropout_71 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_71 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_136 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.7241379022598267,0.0
+0,"Model: ""sequential_37""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_137 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 128)               0         
+                                                                 
+ dropout_72 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_72 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_138 (Dense)           (None, 35)                4515      
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 35)                0         
+                                                                 
+ dropout_73 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_73 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_139 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_3 (LeakyReLU)   (None, 35)                0         
+                                                                 
+ dropout_74 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_74 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_140 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.7586206793785095,0.0
+0,"Model: ""sequential_39""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_145 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu_7 (LeakyReLU)   (None, 128)               0         
+                                                                 
+ dropout_78 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_78 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_146 (Dense)           (None, 35)                4515      
+                                                                 
+ leaky_re_lu_8 (LeakyReLU)   (None, 35)                0         
+                                                                 
+ dropout_79 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_79 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_147 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_9 (LeakyReLU)   (None, 35)                0         
+                                                                 
+ dropout_80 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_80 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_148 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.7413793206214905,0.0
+0,"Model: ""sequential_40""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_149 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu_10 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ dropout_81 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_81 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_150 (Dense)           (None, 35)                4515      
+                                                                 
+ leaky_re_lu_11 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_82 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_82 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_151 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_12 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_83 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_83 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_152 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.767241358757019,0.0
+0,"Model: ""sequential_41""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_153 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu_13 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ dropout_84 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_84 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_154 (Dense)           (None, 35)                4515      
+                                                                 
+ leaky_re_lu_14 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_85 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_85 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_155 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_15 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_86 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_86 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_156 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.7586206793785095,0.0
+0,"Model: ""sequential_42""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_157 (Dense)           (None, 64)                512       
+                                                                 
+ leaky_re_lu_16 (LeakyReLU)  (None, 64)                0         
+                                                                 
+ dropout_87 (Dropout)        (None, 64)                0         
+                                                                 
+ batch_normalization_87 (Bat  (None, 64)               256       
+ chNormalization)                                                
+                                                                 
+ dense_158 (Dense)           (None, 35)                2275      
+                                                                 
+ leaky_re_lu_17 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_88 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_88 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_159 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_18 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_89 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_89 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_160 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 4,619
+Trainable params: 4,351
+Non-trainable params: 268
+_________________________________________________________________",0.6896551847457886,0.0
+0,"Model: ""sequential_43""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_161 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_19 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_90 (Dropout)        (None, 256)               0         
+                                                                 
+ batch_normalization_90 (Bat  (None, 256)              1024      
+ chNormalization)                                                
+                                                                 
+ dense_162 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_20 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_91 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_91 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_163 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_21 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_92 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_92 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_164 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.7844827771186829,0.0
+0,"Model: ""sequential_44""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_165 (Dense)           (None, 512)               4096      
+                                                                 
+ leaky_re_lu_22 (LeakyReLU)  (None, 512)               0         
+                                                                 
+ dropout_93 (Dropout)        (None, 512)               0         
+                                                                 
+ batch_normalization_93 (Bat  (None, 512)              2048      
+ chNormalization)                                                
+                                                                 
+ dense_166 (Dense)           (None, 35)                17955     
+                                                                 
+ leaky_re_lu_23 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_94 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_94 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_167 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_24 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_95 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_95 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_168 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 25,675
+Trainable params: 24,511
+Non-trainable params: 1,164
+_________________________________________________________________",0.6896551847457886,0.0
+0,"Model: ""sequential_45""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_169 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_25 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_96 (Dropout)        (None, 256)               0         
+                                                                 
+ batch_normalization_96 (Bat  (None, 256)              1024      
+ chNormalization)                                                
+                                                                 
+ dense_170 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_26 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_97 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_97 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_171 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_27 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_98 (Dropout)        (None, 35)                0         
+                                                                 
+ batch_normalization_98 (Bat  (None, 35)               140       
+ chNormalization)                                                
+                                                                 
+ dense_172 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.7068965435028076,0.0
+0,"Model: ""sequential_46""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_173 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu_28 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ dropout_99 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_99 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_174 (Dense)           (None, 35)                4515      
+                                                                 
+ leaky_re_lu_29 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_100 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_100 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_175 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_30 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_101 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_101 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_176 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.7155172228813171,0.0
+0,"Model: ""sequential_46""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_173 (Dense)           (None, 128)               1024      
+                                                                 
+ leaky_re_lu_28 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ dropout_99 (Dropout)        (None, 128)               0         
+                                                                 
+ batch_normalization_99 (Bat  (None, 128)              512       
+ chNormalization)                                                
+                                                                 
+ dense_174 (Dense)           (None, 35)                4515      
+                                                                 
+ leaky_re_lu_29 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_100 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_100 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_175 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_30 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_101 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_101 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_176 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 7,627
+Trainable params: 7,231
+Non-trainable params: 396
+_________________________________________________________________",0.7155172228813171,0.0
+0,"Model: ""sequential_47""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_177 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_31 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_102 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_102 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_178 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_32 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_103 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_103 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_179 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_33 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_104 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_104 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_180 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.75,0.0
+0,"Model: ""sequential_48""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_181 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_34 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_105 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_105 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_182 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_35 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_106 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_106 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_183 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_36 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_107 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_107 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_184 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.6896551847457886,0.0
+0,"Model: ""sequential_49""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_185 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_37 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_108 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_108 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_186 (Dense)           (None, 60)                15420     
+                                                                 
+ leaky_re_lu_38 (LeakyReLU)  (None, 60)                0         
+                                                                 
+ dropout_109 (Dropout)       (None, 60)                0         
+                                                                 
+ batch_normalization_109 (Ba  (None, 60)               240       
+ tchNormalization)                                               
+                                                                 
+ dense_187 (Dense)           (None, 60)                3660      
+                                                                 
+ leaky_re_lu_39 (LeakyReLU)  (None, 60)                0         
+                                                                 
+ dropout_110 (Dropout)       (None, 60)                0         
+                                                                 
+ batch_normalization_110 (Ba  (None, 60)               240       
+ tchNormalization)                                               
+                                                                 
+ dense_188 (Dense)           (None, 1)                 61        
+                                                                 
+=================================================================
+Total params: 22,693
+Trainable params: 21,941
+Non-trainable params: 752
+_________________________________________________________________",0.7413793206214905,0.0
+0,"Model: ""sequential_50""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_189 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_40 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_111 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_111 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_190 (Dense)           (None, 120)               30840     
+                                                                 
+ leaky_re_lu_41 (LeakyReLU)  (None, 120)               0         
+                                                                 
+ dropout_112 (Dropout)       (None, 120)               0         
+                                                                 
+ batch_normalization_112 (Ba  (None, 120)              480       
+ tchNormalization)                                               
+                                                                 
+ dense_191 (Dense)           (None, 120)               14520     
+                                                                 
+ leaky_re_lu_42 (LeakyReLU)  (None, 120)               0         
+                                                                 
+ dropout_113 (Dropout)       (None, 120)               0         
+                                                                 
+ batch_normalization_113 (Ba  (None, 120)              480       
+ tchNormalization)                                               
+                                                                 
+ dense_192 (Dense)           (None, 1)                 121       
+                                                                 
+=================================================================
+Total params: 49,513
+Trainable params: 48,521
+Non-trainable params: 992
+_________________________________________________________________",0.6982758641242981,0.0
+0,"Model: ""sequential_51""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_193 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_43 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_114 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_114 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_194 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_44 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_115 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_115 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_195 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_45 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_116 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_116 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_196 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.7068965435028076,0.0
+0,"Model: ""sequential_52""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_197 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_46 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_117 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_117 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_198 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_47 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_118 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_118 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_199 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_48 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_119 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_119 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_200 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.7241379022598267,0.0
+0,"Model: ""sequential_53""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_201 (Dense)           (None, 256)               2048      
+                                                                 
+ leaky_re_lu_49 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_120 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_120 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_202 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_50 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_121 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_121 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_203 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_51 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_122 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_122 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_204 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 13,643
+Trainable params: 12,991
+Non-trainable params: 652
+_________________________________________________________________",0.732758641242981,0.0
+0,"Model: ""sequential_54""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_205 (Dense)           (None, 256)               1280      
+                                                                 
+ leaky_re_lu_52 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ dropout_123 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_123 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_206 (Dense)           (None, 35)                8995      
+                                                                 
+ leaky_re_lu_53 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_124 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_124 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_207 (Dense)           (None, 35)                1260      
+                                                                 
+ leaky_re_lu_54 (LeakyReLU)  (None, 35)                0         
+                                                                 
+ dropout_125 (Dropout)       (None, 35)                0         
+                                                                 
+ batch_normalization_125 (Ba  (None, 35)               140       
+ tchNormalization)                                               
+                                                                 
+ dense_208 (Dense)           (None, 1)                 36        
+                                                                 
+=================================================================
+Total params: 12,875
+Trainable params: 12,223
+Non-trainable params: 652
+_________________________________________________________________",0.7068965435028076,0.0
+0,"Model: ""sequential_63""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_244 (Dense)           (None, 256)               1280      
+                                                                 
+ dropout_153 (Dropout)       (None, 256)               0         
+                                                                 
+ batch_normalization_153 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_245 (Dense)           (None, 24)                6168      
+                                                                 
+ dropout_154 (Dropout)       (None, 24)                0         
+                                                                 
+ batch_normalization_154 (Ba  (None, 24)               96        
+ tchNormalization)                                               
+                                                                 
+ dense_246 (Dense)           (None, 24)                600       
+                                                                 
+ dropout_155 (Dropout)       (None, 24)                0         
+                                                                 
+ batch_normalization_155 (Ba  (None, 24)               96        
+ tchNormalization)                                               
+                                                                 
+ dense_247 (Dense)           (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 9,289
+Trainable params: 8,681
+Non-trainable params: 608
+_________________________________________________________________",0.7068965435028076,0.0
+0,"Model: ""sequential_65""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_252 (Dense)           (None, 256)               1280      
+                                                                 
+ batch_normalization_159 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_253 (Dense)           (None, 40)                10280     
+                                                                 
+ batch_normalization_160 (Ba  (None, 40)               160       
+ tchNormalization)                                               
+                                                                 
+ dense_254 (Dense)           (None, 40)                1640      
+                                                                 
+ batch_normalization_161 (Ba  (None, 40)               160       
+ tchNormalization)                                               
+                                                                 
+ dense_255 (Dense)           (None, 1)                 41        
+                                                                 
+=================================================================
+Total params: 14,585
+Trainable params: 13,913
+Non-trainable params: 672
+_________________________________________________________________",0.7758620977401733,0.0
+0,"Model: ""sequential_67""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_260 (Dense)           (None, 128)               640       
+                                                                 
+ batch_normalization_165 (Ba  (None, 128)              512       
+ tchNormalization)                                               
+                                                                 
+ dense_261 (Dense)           (None, 24)                3096      
+                                                                 
+ batch_normalization_166 (Ba  (None, 24)               96        
+ tchNormalization)                                               
+                                                                 
+ dense_262 (Dense)           (None, 24)                600       
+                                                                 
+ batch_normalization_167 (Ba  (None, 24)               96        
+ tchNormalization)                                               
+                                                                 
+ dense_263 (Dense)           (None, 1)                 25        
+                                                                 
+=================================================================
+Total params: 5,065
+Trainable params: 4,713
+Non-trainable params: 352
+_________________________________________________________________",0.7758620977401733,0.0
+0,"Model: ""sequential_68""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_264 (Dense)           (None, 128)               640       
+                                                                 
+ leaky_re_lu_73 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ batch_normalization_168 (Ba  (None, 128)              512       
+ tchNormalization)                                               
+                                                                 
+ dense_265 (Dense)           (None, 48)                6192      
+                                                                 
+ leaky_re_lu_74 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ batch_normalization_169 (Ba  (None, 48)               192       
+ tchNormalization)                                               
+                                                                 
+ dense_266 (Dense)           (None, 48)                2352      
+                                                                 
+ leaky_re_lu_75 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dropout_159 (Dropout)       (None, 48)                0         
+                                                                 
+ batch_normalization_170 (Ba  (None, 48)               192       
+ tchNormalization)                                               
+                                                                 
+ dense_267 (Dense)           (None, 1)                 49        
+                                                                 
+=================================================================
+Total params: 10,129
+Trainable params: 9,681
+Non-trainable params: 448
+_________________________________________________________________",0.75,0.0
+0,"Model: ""sequential_69""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_268 (Dense)           (None, 128)               640       
+                                                                 
+ leaky_re_lu_76 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ batch_normalization_171 (Ba  (None, 128)              512       
+ tchNormalization)                                               
+                                                                 
+ dense_269 (Dense)           (None, 48)                6192      
+                                                                 
+ leaky_re_lu_77 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ batch_normalization_172 (Ba  (None, 48)               192       
+ tchNormalization)                                               
+                                                                 
+ dense_270 (Dense)           (None, 48)                2352      
+                                                                 
+ leaky_re_lu_78 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ batch_normalization_173 (Ba  (None, 48)               192       
+ tchNormalization)                                               
+                                                                 
+ dense_271 (Dense)           (None, 1)                 49        
+                                                                 
+=================================================================
+Total params: 10,129
+Trainable params: 9,681
+Non-trainable params: 448
+_________________________________________________________________",0.7586206793785095,0.0
+0,"Model: ""sequential_71""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_276 (Dense)           (None, 128)               640       
+                                                                 
+ leaky_re_lu_82 (LeakyReLU)  (None, 128)               0         
+                                                                 
+ batch_normalization_174 (Ba  (None, 128)              512       
+ tchNormalization)                                               
+                                                                 
+ dense_277 (Dense)           (None, 48)                6192      
+                                                                 
+ leaky_re_lu_83 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dense_278 (Dense)           (None, 48)                2352      
+                                                                 
+ leaky_re_lu_84 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dense_279 (Dense)           (None, 1)                 49        
+                                                                 
+=================================================================
+Total params: 9,745
+Trainable params: 9,489
+Non-trainable params: 256
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_72""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_280 (Dense)           (None, 256)               1280      
+                                                                 
+ leaky_re_lu_85 (LeakyReLU)  (None, 256)               0         
+                                                                 
+ batch_normalization_175 (Ba  (None, 256)              1024      
+ tchNormalization)                                               
+                                                                 
+ dense_281 (Dense)           (None, 48)                12336     
+                                                                 
+ leaky_re_lu_86 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dense_282 (Dense)           (None, 48)                2352      
+                                                                 
+ leaky_re_lu_87 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dense_283 (Dense)           (None, 1)                 49        
+                                                                 
+=================================================================
+Total params: 17,041
+Trainable params: 16,529
+Non-trainable params: 512
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_73""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_284 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_88 (LeakyReLU)  (None, 4)                 0         
+                                                                 
+ batch_normalization_176 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_285 (Dense)           (None, 48)                240       
+                                                                 
+ leaky_re_lu_89 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dense_286 (Dense)           (None, 48)                2352      
+                                                                 
+ leaky_re_lu_90 (LeakyReLU)  (None, 48)                0         
+                                                                 
+ dense_287 (Dense)           (None, 1)                 49        
+                                                                 
+=================================================================
+Total params: 2,677
+Trainable params: 2,669
+Non-trainable params: 8
+_________________________________________________________________",0.7844827771186829,0.0
+0,"Model: ""sequential_74""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_288 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_91 (LeakyReLU)  (None, 4)                 0         
+                                                                 
+ batch_normalization_177 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_289 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_92 (LeakyReLU)  (None, 2)                 0         
+                                                                 
+ dense_290 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_93 (LeakyReLU)  (None, 2)                 0         
+                                                                 
+ dense_291 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_75""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_292 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_94 (LeakyReLU)  (None, 4)                 0         
+                                                                 
+ batch_normalization_178 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_293 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_95 (LeakyReLU)  (None, 2)                 0         
+                                                                 
+ batch_normalization_179 (Ba  (None, 2)                8         
+ tchNormalization)                                               
+                                                                 
+ dense_294 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_96 (LeakyReLU)  (None, 2)                 0         
+                                                                 
+ dense_295 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 63
+Trainable params: 51
+Non-trainable params: 12
+_________________________________________________________________",0.7586206793785095,0.0
+0,"Model: ""sequential_79""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_308 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_106 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_182 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_309 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_107 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_310 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_108 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_311 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_80""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_312 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_109 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_183 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_313 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_110 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_314 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_111 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_315 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_112 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_316 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 61
+Trainable params: 53
+Non-trainable params: 8
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_84""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_329 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_122 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_187 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_330 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_123 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_331 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_124 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_332 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_84""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_329 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_122 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_187 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_330 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_123 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_331 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_124 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_332 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8017241358757019,0.0
+0,"Model: ""sequential_84""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_329 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_122 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_187 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_330 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_123 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_331 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_124 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_332 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8017241358757019,0.0
+0,"Model: ""sequential_84""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_329 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_122 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_187 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_330 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_123 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_331 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_124 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_332 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8103448152542114,0.0
+0,"Model: ""sequential_88""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_345 (Dense)           (None, 4)                 20        
+                                                                 
+ leaky_re_lu_134 (LeakyReLU)  (None, 4)                0         
+                                                                 
+ batch_normalization_191 (Ba  (None, 4)                16        
+ tchNormalization)                                               
+                                                                 
+ dense_346 (Dense)           (None, 2)                 10        
+                                                                 
+ leaky_re_lu_135 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_347 (Dense)           (None, 2)                 6         
+                                                                 
+ leaky_re_lu_136 (LeakyReLU)  (None, 2)                0         
+                                                                 
+ dense_348 (Dense)           (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8017241358757019,0.0
+0,"Model: ""sequential""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 4)                 20        
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 4)                 0         
+                                                                 
+ batch_normalization (BatchN  (None, 4)                16        
+ ormalization)                                                   
+                                                                 
+ dense_1 (Dense)             (None, 2)                 10        
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 2)                 6         
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_3 (Dense)             (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.7241379022598267,0.0
+0,"Model: ""sequential""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 4)                 20        
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 4)                 0         
+                                                                 
+ batch_normalization (BatchN  (None, 4)                16        
+ ormalization)                                                   
+                                                                 
+ dense_1 (Dense)             (None, 2)                 10        
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 2)                 6         
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_3 (Dense)             (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.7241379022598267,0.0
+0,"Model: ""sequential""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 4)                 20        
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 4)                 0         
+                                                                 
+ batch_normalization (BatchN  (None, 4)                16        
+ ormalization)                                                   
+                                                                 
+ dense_1 (Dense)             (None, 2)                 10        
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 2)                 6         
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_3 (Dense)             (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.6293103694915771,0.0
+0,"Model: ""sequential""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 4)                 20        
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 4)                 0         
+                                                                 
+ batch_normalization (BatchN  (None, 4)                16        
+ ormalization)                                                   
+                                                                 
+ dense_1 (Dense)             (None, 2)                 10        
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 2)                 6         
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_3 (Dense)             (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.8017241358757019,0.0
+0,"Model: ""sequential""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 4)                 20        
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 4)                 0         
+                                                                 
+ batch_normalization (BatchN  (None, 4)                16        
+ ormalization)                                                   
+                                                                 
+ dense_1 (Dense)             (None, 2)                 10        
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 2)                 6         
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 2)                 0         
+                                                                 
+ dense_3 (Dense)             (None, 1)                 3         
+                                                                 
+=================================================================
+Total params: 55
+Trainable params: 47
+Non-trainable params: 8
+_________________________________________________________________",0.7931034564971924,0.0
